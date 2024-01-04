@@ -11,8 +11,8 @@ const Header = () => {
         <p className="logo-container-title">DUNAGIRI</p>
       </div>
       <ul className='navigation-items'>
-      {pages.map((page)=>(
-        <li className='header-navigation-items'>{page}</li>
+      {pages.map((page,i)=>(
+        <li key={i} className='header-navigation-items'>{page}</li>
       ))}
       </ul>
     </header>

@@ -5,6 +5,7 @@ import AsFeaturedIn from "../../components/AsFeaturedIn/AsFeaturedIn";
 import QuoteCard from "../../components/QuoteCard/QuoteCard";
 import LifeDiscoverySection from "../../components/LifeDiscoverySection/LifeDiscoverySection";
 import StatisticsSection from "../../components/StatisticsSection/StatisticsSection";
+import RetreatProgram from "../../components/RetreatProgram/RetreatProgram";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <QuoteCard/>
       <LifeDiscoverySection/>
       <StatisticsSection/>
+      <RetreatProgram/>
     </div>
   );
 };

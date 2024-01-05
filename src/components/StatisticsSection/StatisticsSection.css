@@ -102,4 +102,14 @@
     .asfeaturedin-description {
         padding: 5vh 10vw;
     }
+    .statisticssection-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #1D2927;
+        color: white;
+        height: 40vh;
+        width: 60vw;
+        padding: 5vh 20vw;
+        font-family: "Fraunces", serif;
+    }
 }

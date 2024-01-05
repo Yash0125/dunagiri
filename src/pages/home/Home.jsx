@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import HeroSection from "../../components/heroSection/HeroSection";
 import AsFeaturedIn from "../../components/AsFeaturedIn/AsFeaturedIn";
 import QuoteCard from "../../components/QuoteCard/QuoteCard";
+import LifeDiscoverySection from "../../components/LifeDiscoverySection/LifeDiscoverySection";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <HeroSection/>
       <AsFeaturedIn/>
       <QuoteCard/>
+      <LifeDiscoverySection/>
     </div>
   );
 };

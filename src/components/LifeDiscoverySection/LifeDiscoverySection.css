@@ -1,0 +1,108 @@
+.lifediscoverysection-container {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  height: 100vh;
+  padding: 10vh 3vw;
+}
+
+.lifediscoverysection-left-container {
+  width: 32vw;
+}
+
+.lifediscoverysection-left-img {
+  width: 30vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.lifediscoverysection-right-container {
+  max-width: 68vw;
+}
+
+.lifediscoverysection-right-description{
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.lifediscoverysection-right-title{
+    font-weight: 900 ;
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.lifediscoverysection-right-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.lifediscoverysection-right-card{
+    min-width: 18vw;
+    max-width: 20vw;
+    margin-top: 2vh;
+    margin-top: 5vh;
+}
+
+.lifediscoverysection-right-card-image{
+    filter: brightness(0) saturate(100%) invert(93%) sepia(80%) saturate(358%) hue-rotate(93deg) brightness(70%) contrast(83%);
+    mix-blend-mode: multiply;
+    padding: 2vh ;
+}
+
+
+.lifediscoverysection-right-card-title{
+    font-size: 2.7vh;
+    font-weight: 600;
+    margin:2vh 0;
+    padding: 2vh ;
+    height: 10vh;
+}
+
+.lifediscoverysection-right-card-description{
+    font-size: 2vh;
+    font-weight: 300;
+    font-style: italic;
+    margin: 2vh 0;
+    padding:0 2vh;
+    
+}
+@media (max-width: 425px) {
+    .lifediscoverysection-container {
+        padding: 10vh 0;
+      }
+    
+    .lifediscoverysection-right-card-image{
+        padding: 0 ;
+        padding-left:2vh  ;
+    }
+    
+    
+    .lifediscoverysection-right-card-title{
+        font-size: 1.8vh;
+        font-weight: 600;
+        margin:1vh 0;
+        padding: 0 ;
+        padding-left: 2vh;
+        height: 10vh;
+    }
+    
+    .lifediscoverysection-right-card-description{
+        font-size: 1vh;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .lifediscoverysection-container {
+        padding: 10vh 0;
+      }
+}
+
+@media (max-width: 1024px) {
+    .lifediscoverysection-container {
+        padding: 10vh 0;
+      }
+}

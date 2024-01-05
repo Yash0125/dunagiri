@@ -54,6 +54,16 @@
   cursor: pointer;
 }
 
+.hero-card-btn:hover {
+  background-color: white;
+  color:#014235;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #014235;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
 @media (max-width: 425px) {
   .hero-card-container {
     width: 50vw; 

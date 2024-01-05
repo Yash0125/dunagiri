@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3vh;
+    font-size: 2vh;
     font-weight: 500;
     padding: 20px;
 
@@ -26,7 +26,7 @@
 }
 
 .quotecard-right-description{
-    font-size: 2.5vh;
+    font-size: 2vh;
     padding-left: 50px;
     font-weight: 300;
     letter-spacing: 0.1rem;
@@ -46,8 +46,7 @@
 
 .quotecard-right-author{
     padding-left: 50px;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 @media (max-width: 520px) {
@@ -55,7 +54,7 @@
         height: 52vh;
     }
     .quotecard-right-description{
-        font-size: 2vh;
+        font-size: 1.5vh;
     }
     .dash{
         width: 20vw;

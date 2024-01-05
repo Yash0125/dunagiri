@@ -4,6 +4,7 @@ import HeroSection from "../../components/heroSection/HeroSection";
 import AsFeaturedIn from "../../components/AsFeaturedIn/AsFeaturedIn";
 import QuoteCard from "../../components/QuoteCard/QuoteCard";
 import LifeDiscoverySection from "../../components/LifeDiscoverySection/LifeDiscoverySection";
+import StatisticsSection from "../../components/StatisticsSection/StatisticsSection";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <AsFeaturedIn/>
       <QuoteCard/>
       <LifeDiscoverySection/>
+      <StatisticsSection/>
     </div>
   );
 };

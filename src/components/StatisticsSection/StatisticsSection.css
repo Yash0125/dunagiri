@@ -1,0 +1,105 @@
+.statisticssection-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1D2927;
+    color: white;
+    height: 35vh;
+    width: 58vw;
+    padding: 5vh 20vw;
+    font-family: "Fraunces", serif;
+}
+
+.statisticssection-intro{
+    font-size: 2vh;
+    font-weight: 200;
+}
+
+.statisticssection-title{
+    font-size: 6vh;
+    font-weight: 500;
+    font-family: "Fraunces", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.stastics-details-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.stastics-details{
+    gap: 20px;
+}
+
+.stastics-details-title{
+    font-size: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stastics-details-description{
+    font-size: 1.5vh;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+
+}
+@media (max-width: 425px) {
+
+    .statisticssection-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #1D2927;
+        color: white;
+        height: 35vh;
+        width: 60vw;
+        padding: 5vh 20vw;
+        font-family: "Fraunces", serif;
+    }
+    .stastics-details-title{
+        font-size: 3.6vh !important;
+    }
+    
+    .stastics-details-description{
+        font-size: 1.4vh !important;
+    
+    }
+    .statisticssection-title{
+        font-size: 4vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .asfeaturedin-description {
+        padding: 5vh 10vw;
+    }
+    .statisticssection-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #1D2927;
+        color: white;
+        height: 35vh;
+        width: 60vw;
+        padding: 5vh 20vw;
+        font-family: "Fraunces", serif;
+    }
+    .stastics-details-title{
+        font-size: 5vh;
+    }
+    
+    .stastics-details-description{
+        font-size: 1.5vh;
+    
+    }
+    .statisticssection-title{
+        font-size: 4vh;
+    }
+}
+@media (max-width: 1024px) {
+    .asfeaturedin-description {
+        padding: 5vh 10vw;
+    }
+}

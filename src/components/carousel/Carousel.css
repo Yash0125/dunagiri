@@ -1,0 +1,50 @@
+.Carousel-container{
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+.Carousel-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.Carousel-card-img{
+    width: 25vw;
+    height: 13vh;
+    object-fit: contain; 
+}
+
+.Carousel-card-description{
+    font-size: 3vh;
+    font-style: italic;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.Carousel-card-author{
+    font-size: 3vh;
+    text-decoration: underline;
+}
+
+.Carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .Carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #ccc; 
+  }
+  
+  .Carousel-indicator.active {
+    background-color: #333;
+  }
+  

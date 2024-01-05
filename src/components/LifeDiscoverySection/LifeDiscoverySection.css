@@ -50,6 +50,7 @@
     filter: brightness(0) saturate(100%) invert(93%) sepia(80%) saturate(358%) hue-rotate(93deg) brightness(70%) contrast(83%);
     mix-blend-mode: multiply;
     padding: 2vh ;
+   
 }
 
 
@@ -77,11 +78,73 @@
     .lifediscoverysection-right-card-image{
         padding: 0 ;
         padding-left:2vh  ;
+        height: 5vh;
+        width: 5vh;
     }
     
     
     .lifediscoverysection-right-card-title{
-        font-size: 1.8vh;
+        font-size: 1.7vh !important;
+        font-weight: 600;
+    }
+    
+    .lifediscoverysection-right-card-description{
+        font-size: 1.3vh !important;
+        
+    }
+    .lifediscoverysection-right-card{
+        margin-top: 2vh;
+        margin-top: 5vh;
+        max-height: 35vh;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .lifediscoverysection-container {
+        padding: 10vh 0;
+      }
+      .lifediscoverysection-container {
+        padding: 10vh 0;
+      }
+    
+      .lifediscoverysection-right-card-image{
+        padding: 0 ;
+        padding-left:2vh  ;
+        height: 5vh;
+        width: 5vh;
+    }
+    
+    
+    .lifediscoverysection-right-card-title{
+        font-size: 1.7vh !important;
+        font-weight: 600;
+    }
+    
+    .lifediscoverysection-right-card-description{
+        font-size: 1.3vh !important;
+        
+    }
+    .lifediscoverysection-right-card{
+        margin-top: 2vh;
+        margin-top: 5vh;
+        max-height: 35vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lifediscoverysection-container {
+        padding: 10vh 0;
+      }
+    
+    .lifediscoverysection-right-card-image{
+        padding: 0 ;
+        padding-left:2vh  ;
+    }
+    
+    
+    .lifediscoverysection-right-card-title{
+        font-size: 2.2vh;
         font-weight: 600;
         margin:1vh 0;
         padding: 0 ;
@@ -90,19 +153,7 @@
     }
     
     .lifediscoverysection-right-card-description{
-        font-size: 1vh;
+        font-size: 1.7vh;
         
     }
-}
-
-@media (max-width: 768px) {
-    .lifediscoverysection-container {
-        padding: 10vh 0;
-      }
-}
-
-@media (max-width: 1024px) {
-    .lifediscoverysection-container {
-        padding: 10vh 0;
-      }
 }

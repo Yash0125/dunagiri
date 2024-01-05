@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    font-family: "Fraunces", serif;
 }
 
 .quotecard-left-container{

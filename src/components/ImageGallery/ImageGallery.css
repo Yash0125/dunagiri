@@ -25,13 +25,6 @@
     object-fit: cover;
   }
   
-  /* .image-info {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: #fff;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
-  } */
 
   .image-date{
     position: absolute;
@@ -45,7 +38,6 @@
     top : 35vh;
     left: 10px;
     color: #fff;
-    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); */
     font-size: 1.4vh;
     width: 30vw;
     height: 6vh;

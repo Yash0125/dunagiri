@@ -1,0 +1,139 @@
+.chooseus-container{
+    width: 100vw;
+    height: 170vh;
+    font-family: "Fraunces", serif;
+    background-color: hsl(170, 17%, 14%);
+    color: white;
+}
+
+.chooseus-title-container{
+    height: 10vh;
+    width: 100vw;
+    padding: 1vw;
+}
+.chooseus-title{
+    font-size: 7vh;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseus-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 120vh;
+    margin-top: 10vh;
+}
+
+.chooseus-card{
+    height: 40vh;
+    margin-top: 5vh;
+}
+
+.chooseus-card-img-1{
+    width: 50vw;
+    height: 35vh;
+    margin-left: 15vw;
+}
+
+.chooseus-card-feature{
+    width: 50vw;
+    height: 35vh;
+    background-color: #FFF;
+    position: relative;
+    bottom: 34vh;
+    left: 40vw;
+    box-sizing: border-box;
+}
+
+.chooseus-card-feature-title{
+    color: black;
+    font-size: 4.5vh;
+    margin-left: 3vw;
+    font-weight: 500;
+    padding:1vh 0 0 0 ;
+}
+
+.chooseus-card-feature-description{
+    color: black;
+    font-size: 1.5vh;
+    margin: 1vh 3vw;
+    letter-spacing: 0.1rem;
+    font-weight:200 ;
+    padding:2vh 0 ;
+}
+
+.chooseus-card-feature-footer{
+    color: black;
+    font-size: 1.5vh;
+    margin: 1vh 3vw;
+    font-weight:700 ;
+    padding:2vh 0 ;
+    font-style:bold ;
+    width: 20vw;
+}
+.chooseus-card-feature-footer:hover{
+    border-bottom: 2px solid black;
+}
+
+.chooseus-card-img-2{
+    width: 50vw;
+    height: 35vh;
+    position: relative;
+    left: 40vw;
+    bottom: 40vh;
+    z-index: 1;
+}
+
+.chooseus-card-feature-2{
+    width: 50vw;
+    height: 35vh;
+    background-color: #FFF;
+    position: relative;
+    left: 15vw;
+    box-sizing: border-box;
+    z-index: 200;
+}
+
+@media (max-width: 768px) {
+    .chooseus-card-feature-2{
+        width: 50vw;
+        height: 40vh;
+        background-color: #FFF;
+        position: relative;
+        left: 15vw;
+        box-sizing: border-box;
+        z-index: 200;
+    }
+    .chooseus-card-feature{
+        width: 50vw;
+        height: 40vh;
+        background-color: #FFF;
+        position: relative;
+        bottom: 34vh;
+        left: 40vw;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 425px) {
+    .chooseus-card-feature-2{
+        width: 70vw;
+        height: 40vh;
+        background-color: #FFF;
+        position: relative;
+        left: 15vw;
+        box-sizing: border-box;
+        z-index: 200;
+    }
+    .chooseus-card-feature{
+        width: 70vw;
+        height: 40vh;
+        background-color: #FFF;
+        position: relative;
+        bottom: 34vh;
+        left: 40vw;
+        box-sizing: border-box;
+    }
+}

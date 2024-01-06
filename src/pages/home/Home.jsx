@@ -6,6 +6,7 @@ import QuoteCard from "../../components/QuoteCard/QuoteCard";
 import LifeDiscoverySection from "../../components/LifeDiscoverySection/LifeDiscoverySection";
 import StatisticsSection from "../../components/StatisticsSection/StatisticsSection";
 import RetreatProgram from "../../components/RetreatProgram/RetreatProgram";
+import BabajiCaveDetails from "../../components/BabajiCaveDetails/BabajiCaveDetails";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <LifeDiscoverySection/>
       <StatisticsSection/>
       <RetreatProgram/>
+      <BabajiCaveDetails/>
     </div>
   );
 };

@@ -149,7 +149,7 @@ label {
   border: none;
   margin-top: 20px;
   cursor: pointer;
-  margin-left: 32vw;
+  margin-left: auto;
 }
 
 .send-btn:hover {
@@ -169,7 +169,7 @@ label {
         border: none;
         margin-top: 20px;
         cursor: pointer;
-        margin-left: 20vw;
+        margin-left: auto;
       }
 }
 @media (max-width: 425px) {
@@ -182,6 +182,6 @@ label {
         border: none;
         margin-top: 20px;
         cursor: pointer;
-        margin-left: 10vw;
+        margin-left: auto;
       }
 }

@@ -69,7 +69,8 @@ const ImageGallery = () => {
       <div className="image-container">
         {items.slice(startIndex, startIndex + 3).map((item) => (
           <div key={item.id} className="image-wrapper">
-            <img src={item.url} alt={`Image ${item.id}`} />
+          
+            <img src={item.url} alt='img' />
             <div className="image-info">
               <p className='image-date'>{item.date}</p>
               <h3 className='image-title'>{item.title}</h3>

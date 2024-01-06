@@ -14,6 +14,7 @@
 .contactus-detail-container{
     width: 30vw;
     height: 30vh;
+    overflow: hidden;
 }
 
 .contactus-detail-container p{

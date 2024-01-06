@@ -13,6 +13,7 @@ import FounderIntro from "../../components/FounderIntro/FounderIntro";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import ContactUs from "../../components/ContactUs/ContactUs";
 import Map from "../../components/map/Map";
+import Footer from "../../components/footer/Footer";
 
 
 
@@ -33,6 +34,7 @@ const Home = () => {
       <ImageGallery/>
       <ContactUs/>
       <Map/>
+      <Footer/>
     </div>
   );
 };

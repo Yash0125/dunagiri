@@ -1,0 +1,159 @@
+.contactus-container {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.contactus-left-container {
+  width: 50vw;
+}
+
+.contactus-left-title {
+  font-size: 5vh;
+  padding-left: 2vw;
+  font-weight: 500;
+}
+
+.contactus-left-address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.contactus-left-address-img {
+  height: 20px;
+  width: 20px;
+  padding-left: 2vw;
+  padding-top: 2vh;
+}
+
+.contactus-left-address-details {
+  font-size: 1.8vh;
+  font-weight: 200;
+  padding-left: 2vh;
+  font-style: italic;
+}
+.contactus-left-phone-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-left: 0;
+}
+
+.contactus-left-phone-img {
+  height: 20px;
+  width: 20px;
+  padding-left: 2vw;
+  padding-top: 2vh;
+}
+
+.contactus-left-phone-details {
+  font-size: 1.8vh;
+  font-weight: 200;
+  padding-left: 2vh;
+  font-style: italic;
+}
+.contactus-left-mail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-left: 0;
+}
+
+.contactus-left-mail-img {
+  height: 20px;
+  width: 20px;
+  padding-left: 2vw;
+  padding-top: 2vh;
+}
+
+.contactus-left-mail-details {
+  display: flex;
+  font-size: 1.8vh;
+  font-weight: 200;
+  padding-left: 2vh;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+}
+
+.social-app-logo-contact {
+  display: flex;
+  flex-direction: row;
+  margin: 2.5vh 1vw 2vh 2vw;
+}
+
+.social-app {
+  height: 25px;
+  width: 25px;
+  margin: 0 3px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.contactus-right-container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5vh;
+}
+
+.firstname {
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+}
+.lastname {
+  width: 23vw;
+  height: 4vh;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstname-input {
+  min-height: 4vh;
+  width: 20vw;
+}
+.lastname-input {
+  height: 4vh;
+  width: 45vw;
+}
+
+.message-input {
+  height: 10vh;
+  width: 45vw;
+}
+
+label {
+  margin: 1vh;
+}
+
+.send-btn {
+  margin: 3vh;
+  background-color: #014235;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 32vw;
+}
+
+.send-btn:hover {
+  background-color: white;
+  color: #014235;
+  border: 1px solid #014235;
+  cursor: pointer;
+}

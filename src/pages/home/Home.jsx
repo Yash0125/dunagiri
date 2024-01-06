@@ -11,6 +11,7 @@ import GuestExperience from "../../components/Guest Experience/GuestExperience";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import FounderIntro from "../../components/FounderIntro/FounderIntro";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
+import ContactUs from "../../components/ContactUs/ContactUs";
 
 
 
@@ -29,6 +30,7 @@ const Home = () => {
       <ChooseUs/>
       <FounderIntro/>
       <ImageGallery/>
+      <ContactUs/>
 
     </div>
   );

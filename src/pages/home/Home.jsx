@@ -10,6 +10,7 @@ import BabajiCaveDetails from "../../components/BabajiCaveDetails/BabajiCaveDeta
 import GuestExperience from "../../components/Guest Experience/GuestExperience";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import FounderIntro from "../../components/FounderIntro/FounderIntro";
+import ImageGallery from "../../components/ImageGallery/ImageGallery";
 
 
 
@@ -27,6 +28,7 @@ const Home = () => {
       <GuestExperience/>
       <ChooseUs/>
       <FounderIntro/>
+      <ImageGallery/>
 
     </div>
   );

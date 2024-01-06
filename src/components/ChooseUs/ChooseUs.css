@@ -137,3 +137,23 @@
         box-sizing: border-box;
     }
 }
+@media (max-width: 1024px) {
+    .chooseus-card-feature-2{
+        width: 50vw;
+        height: 40vh;
+        background-color: #FFF;
+        position: relative;
+        left: 15vw;
+        box-sizing: border-box;
+        z-index: 200;
+    }
+    .chooseus-card-feature{
+        width: 50vw;
+        height: 40vh;
+        background-color: #FFF;
+        position: relative;
+        bottom: 34vh;
+        left: 40vw;
+        box-sizing: border-box;
+    }
+}

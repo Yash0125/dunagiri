@@ -44,6 +44,24 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
   margin-left: 20vw;
 }
+
+.activities-btn{
+  background-color: #014235;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  margin:0 40vw;
+}
+
+.activities-btn:hover {
+  background-color: white;
+  color: #014235;
+  border: 1px solid #014235;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .babajicavedetails-title {
     font-size: 4vh;
@@ -56,6 +74,16 @@ body::-webkit-scrollbar-thumb {
       minmax(150px, 1fr)
     ); 
   }
+  .activities-btn{
+    background-color: #014235;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    margin:0 35vw;
+  }
 }
 
 @media (max-width: 425px) {
@@ -67,6 +95,17 @@ body::-webkit-scrollbar-thumb {
     grid-template-columns: repeat(8, minmax(100px, 1fr));
     
   }
+  .activities-btn{
+    background-color: #014235;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    margin:0 30vw;
+  }
+  
 }
 
 @media (max-width: 1024px) {

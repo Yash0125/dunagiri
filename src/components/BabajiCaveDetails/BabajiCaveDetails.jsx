@@ -46,6 +46,8 @@ const BabajiCaveDetails = () => {
           </>
         ))}
       </div>
+
+      <button className='activities-btn'>ACTIVITIES</button>
     </div>
   )
 };

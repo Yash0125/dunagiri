@@ -12,6 +12,7 @@ import ChooseUs from "../../components/ChooseUs/ChooseUs";
 import FounderIntro from "../../components/FounderIntro/FounderIntro";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import ContactUs from "../../components/ContactUs/ContactUs";
+import Map from "../../components/map/Map";
 
 
 
@@ -31,7 +32,7 @@ const Home = () => {
       <FounderIntro/>
       <ImageGallery/>
       <ContactUs/>
-
+      <Map/>
     </div>
   );
 };

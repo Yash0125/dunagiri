@@ -158,3 +158,30 @@ label {
   border: 1px solid #014235;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .send-btn {
+        margin: 3vh;
+        background-color: #014235;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 20vw;
+      }
+}
+@media (max-width: 425px) {
+    .send-btn {
+        margin: 3vh;
+        background-color: #014235;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 10vw;
+      }
+}

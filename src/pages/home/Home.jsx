@@ -7,6 +7,8 @@ import LifeDiscoverySection from "../../components/LifeDiscoverySection/LifeDisc
 import StatisticsSection from "../../components/StatisticsSection/StatisticsSection";
 import RetreatProgram from "../../components/RetreatProgram/RetreatProgram";
 import BabajiCaveDetails from "../../components/BabajiCaveDetails/BabajiCaveDetails";
+import GuestExperience from "../../components/Guest Experience/GuestExperience";
+
 
 
 const Home = () => {
@@ -20,6 +22,7 @@ const Home = () => {
       <StatisticsSection/>
       <RetreatProgram/>
       <BabajiCaveDetails/>
+      <GuestExperience/>
     </div>
   );
 };

@@ -9,6 +9,7 @@ import RetreatProgram from "../../components/RetreatProgram/RetreatProgram";
 import BabajiCaveDetails from "../../components/BabajiCaveDetails/BabajiCaveDetails";
 import GuestExperience from "../../components/Guest Experience/GuestExperience";
 import ChooseUs from "../../components/ChooseUs/ChooseUs";
+import FounderIntro from "../../components/FounderIntro/FounderIntro";
 
 
 
@@ -25,6 +26,8 @@ const Home = () => {
       <BabajiCaveDetails/>
       <GuestExperience/>
       <ChooseUs/>
+      <FounderIntro/>
+
     </div>
   );
 };

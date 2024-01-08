@@ -72,6 +72,7 @@
     margin-top: 10px;
     position: relative;
     top: 80vh;
+
   }
   
   .Carousel-indicator-card {
@@ -86,79 +87,75 @@
     background-color: #333;
   }
 @media (max-width: 425px) {
+  .Carousel-indicators-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    top: -25vh !important;
     
+  }
+  .guestexperience-image-1 {
+    height: 30vh !important;
+    width: 25vw;
+    border-radius: 25vh 25vh 0 0;
+    margin-top: 30vh;
+  }
 }
 
-@media (max-width: 768px) {
-    .guestexperience-review-card {
-        height: 45vh;
-        width: 50vw !important;
-        margin: 0;
-        background-color: white;
-        position: absolute;
-        transform: translate(70%, -10%);
-        padding:0;
-      }
-
-      .guestexperience-image-container {
-        height: 30vh;
-        width: 20vw;
-      }
-      .guestexperience-review-card {
-        height: 25vh;
-        width: 20vw;
-        background-color: white;
-        padding: 5vh 5vw;
-        right: 25vh;
-        position: relative;
-        margin-top: 20vh;
-      }
-      .guestexperience-image-1 {
-        height: 40vh;
-        width: 25vw;
-        border-radius: 25vh 25vh 0 0;
-        margin: 0 20vw;
-      }
-      .guestexperience-review-description{
-        font-size: 2vh;
-    }
+@media (max-width: 1024px) {
+  .guestexperience-container {
+    height: auto;
+  }
+  .guestexperience-card {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .guestexperience-image-container {
+    height: 40vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .guestexperience-image-1 {
+    height: 40vh;
+    width: 25vw;
+    border-radius: 25vh 25vh 0 0;
+    margin-top: 30vh;
+  }
+  .guestexperience-review-card {
+    height: 40vh;
+    width: 80vw;
+    /* margin: 20vh; */
+    background-color: white;
+    position: relative;
+    right: 60vw;
+    /* transform: translate(70%, -10%); */
+    /* padding: 5vh 5vw; */
+  }
+  .Carousel-indicators-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    top: -20vh;
     
-    .guestexperience-review-dash{
-        width: 20vw;
-        border: 1px solid black;
-        display: flex;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .guestexperience-review-author{
-        font-size: 2vh;
-        font-weight: 400;
-    }
-    .guestexperience-card {
-        width: 80vw;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .Carousel-indicators-card {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        position: relative;
-        top: -2vh;
-      }
-      
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-    .guestexperience-review-card {
-        height: 40vh;
-        width: 30vw;
-        margin: 20vh;
-        background-color: white;
-        position: absolute;
-        transform: translate(70%, -10%);
-        padding: 5vh 5vw;
-      }
+  }
+  
+  .Carousel-indicator-card {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #ccc; 
+  }
+  
+  .Carousel-indicator-card.active {
+    background-color: #333;
+  }
 }

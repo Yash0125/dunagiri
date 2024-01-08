@@ -1,140 +1,192 @@
-.retreatprogram-container{
-    height: 100vh;
-    width: 80vw;
+.retreatprogram-container {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fraunces", serif;
+  flex-direction: column;
+  padding: 0 10vw;
+  background-color: #e8e6e6cc;
+}
+
+.retreatprogram-title {
+  font-size: 5.5vh;
+  font-weight: 500;
+}
+
+.retreatprogram-description {
+  font-weight: 300;
+}
+
+.retreatprogram-card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.retreatprogram-card {
+  width: 30vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2vw;
+}
+
+.retreatprogram-card-image {
+  min-height: 20%;
+  min-width: 20%;
+  max-height: 20%;
+  max-width: 20%;
+  border-radius: 50%;
+}
+
+.retreatprogram-card-title {
+  font-size: 5vh;
+  font-weight: 500;
+  height: 10vh;
+}
+
+.retreatprogram-card-description {
+  font-size: 2vh;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  min-width: 28vw;
+  min-height: 28vh;
+}
+
+.btn {
+  background-color: #014235;
+  color: white;
+  width: 180px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #014235;
+  border: 1px solid #014235;
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .retreatprogram-container {
+        height: auto;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Fraunces", serif;
+        flex-direction: column;
+        padding: 0 10vw;
+        background-color: #e8e6e6cc;
+      }
+  .retreatprogram-card-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Fraunces", serif;
     flex-direction: column;
-    padding: 0 10vw;
-    background-color: #E8E6E6CC;
-}
+  }
 
-.retreatprogram-title{
-    font-size: 5.5vh;
-    font-weight: 500;
-}
-
-.retreatprogram-description{
-    font-weight: 300;
-}
-
-.retreatprogram-card-container{
-    display: flex;
-    flex-direction: row;
-}
-
-.retreatprogram-card{
-    width: 30vw;
+  .retreatprogram-card {
+    width: 80vw;
     height: 80vh;
     display: flex;
     flex-direction: column;
     padding: 0 2vw;
-}
-
-.retreatprogram-card-image{
-    min-height: 20%;
-    min-width: 20%;
-    max-height: 20%;
-    max-width: 20%;
-    border-radius: 50%;
-}
-
-.retreatprogram-card-title{
-    font-size: 5vh;
+  }
+  .retreatprogram-card-title {
+    font-size: 2.5vh !important;
     font-weight: 500;
-    height: 10vh;
-   
-}
+    height: 5vh !important ;
+    margin: 3vh 0 0 0;
+  }
 
-.retreatprogram-card-description{
-    font-size: 2vh;
+  .retreatprogram-card-description {
+    font-size: 1.7vh !important;
     font-weight: 300;
     margin: 0;
     padding: 0;
-    min-width: 28vw;
-    min-height: 28vh;
-}
-
-.btn {
+    min-height: 15vh;
+  }
+  
+  .btn {
     background-color: #014235;
     color: white;
-    width: 150px;
+    width: 180px;
     height: 40px;
     border: none;
     margin-top: 20px;
     cursor: pointer;
-
+    font-size: 10px;
   }
-  
+
   .btn:hover {
     background-color: white;
     color: #014235;
     border: 1px solid #014235;
     cursor: pointer;
   }
-
-@media (max-width: 425px) {
-    .retreatprogram-card-title{
-        font-size: 3vh !important;    
-    }
-
-    .retreatprogram-card-description{
-        font-size: 1.2vh !important;
-        font-weight: 300;
-        margin: 0;
-        padding: 0;
-    }
-    .retreatprogram-card-image{
-        min-height: 20%;
-        min-width: 20%;
-        max-height: 20%;
-        max-width: 20%;
-        border-radius: 40%;
-    }
-    .btn {
-        background-color: #014235;
-        color: white;
-        width: 120px;
-        height: 20px;
-        border: none;
-        margin-top: 20px;
-        cursor: pointer;
-        font-size: 10px;
-    
-      }
-      
-      .btn:hover {
-        background-color: white;
-        color: #014235;
-        border: 1px solid #014235;
-        cursor: pointer;
-      }
-    
 }
 
 @media (max-width: 768px) {
-    .retreatprogram-card-title{
-        font-size: 3vh !important;    
-    }
+    .retreatprogram-container {
+        height: auto;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Fraunces", serif;
+        flex-direction: column;
+        padding: 0 10vw;
+        background-color: #e8e6e6cc;
+      }
+  .retreatprogram-card-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .retreatprogram-card-description{
-        font-size: 1.2vh !important;
-        font-weight: 300;
-        margin: 0;
-        padding: 0;
-        min-height: 25vh;
-    }
-    
+  .retreatprogram-card {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2vw;
+  }
+  .retreatprogram-card-title {
+    font-size: 5vh;
+    font-weight: 500;
+    height: 7vh !important ;
+    margin: 3vh 0 0 0;
+  }
+
+  .retreatprogram-card-description {
+    font-size: 2vh !important;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    min-height: 15vh;
+  }
+  .btn {
+    background-color: #014235;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
 }
 @media (max-width: 1024px) {
-    .retreatprogram-card-title{
-        font-size: 3.5vh;
-        height: 12vh;
-       
-    }
-    
-    .retreatprogram-card-description{
-        font-size: 1.5vh;
-    }
+  .retreatprogram-card-title {
+    font-size: 3.5vh;
+    height: 12vh;
+  }
+
+  .retreatprogram-card-description {
+    font-size: 1.5vh;
+  }
 }

@@ -1,6 +1,6 @@
 .founderintro-container{
     width: 80vw;
-    height: 70vh;
+    height: auto;
     background-color: #E8E6E6;
     padding: 10vh 10vw;
     font-family: "Fraunces", serif;
@@ -8,7 +8,7 @@
 
 .founderintro-card{
     width: 80vw;
-    height: 70vh;
+    height: auto;
     background-color: white;
     display: flex;
     flex-direction: row;

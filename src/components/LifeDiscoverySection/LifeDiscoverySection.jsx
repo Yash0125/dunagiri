@@ -65,3 +65,5 @@ const LifeDiscoverySection = () => {
 };
 
 export default LifeDiscoverySection;
+
+

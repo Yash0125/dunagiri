@@ -29,7 +29,7 @@ const ChooseUs = () => {
           </div>
         </div>
 
-        <div className="chooseus-card">
+        <div className="chooseus-card-2">
           <div className="chooseus-card-feature-2">
             <h1 className="chooseus-card-feature-title">2. Yoga & Meditation Near Babaji's Cave</h1>
             <p className="chooseus-card-feature-description">
@@ -72,7 +72,3 @@ const ChooseUs = () => {
 
 export default ChooseUs;
 
-// chooseus-card-container
-// chooseus-card
-// chooseus-card-img
-// chooseus-card-feature

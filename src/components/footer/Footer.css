@@ -95,3 +95,42 @@
 .copywrite span{
     font-weight: 400;
 }
+
+@media (max-width: 768px) {
+    .footer-container{
+        background-color: hsl(170, 17%, 14%);
+        height: auto;
+        width: 90vw;
+        padding: 10vh 5vw;
+        color: white;
+    }
+
+    .contact-details-container{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactus-detail-container{
+        width: 30vw;
+        height: auto;
+    }
+
+    .contactus-address-container{
+        width: 30vw;
+        height: auto;
+    }
+
+    .contactus-followus-container{
+        width: 30vw;
+        height: auto;
+    
+    }
+
+    .pollicy-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

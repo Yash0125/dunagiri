@@ -1,41 +1,70 @@
 .image-gallery-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    height: 70vh;
-    width: 95vw;
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .image-wrapper {
-    position: relative;
-    height: 50vh;
-  }
-  
-  .image-wrapper img {
-    width: 30vw;
-    height: 40vh;
-    object-fit: cover;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  height: 70vh;
+  width: 95vw;
+}
 
-  .image-date{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: #fff;
-  }
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-  .image-title{
+.image-wrapper {
+  position: relative;
+  height: 50vh;
+}
+
+.image-wrapper img {
+  width: 30vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.image-date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+}
+
+.image-title {
+  position: absolute;
+  top: 35vh;
+  left: 10px;
+  color: #fff;
+  font-size: 1.4vh;
+  width: 30vw;
+  height: 6vh;
+  font-weight: 500;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  margin: 0 2vw;
+}
+
+@media (max-width: 520px) {
+  .image-title {
     position: absolute;
-    top : 35vh;
+    top: 30vh;
     left: 10px;
     color: #fff;
     font-size: 1.4vh;
@@ -43,21 +72,4 @@
     height: 6vh;
     font-weight: 500;
   }
-  
-  .button-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;padding: 0;
-  }
-  
-  button {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    color: black;
-    border: 1px solid black;
-    border-radius: 5px;
-    outline: none;
-    margin: 0 2vw;
-  }
-  
+}

@@ -1,7 +1,7 @@
 .quotecard-container{
     width: 98vw;
     background-color: #1D2927;
-    height: 40vh;
+    height: 60vh !important;
     color: white;
     padding: 30px;
     display: flex;
@@ -50,9 +50,34 @@
     font-weight: 600;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
     .quotecard-container{
-        height: 52vh;
+        width: 98vw;
+        background-color: #1D2927;
+        height: auto;
+        color: white;
+        padding: 30px;
+        display: flex;
+        flex-direction:column ;
+        box-sizing: border-box;
+        font-family: "Fraunces", serif;
+        justify-content: center;
+        align-items: center;
+    }
+    .quotecard-left-container{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vh;
+        font-weight: 500;
+        padding: 2vh 20vw;
+    
+    }
+
+    .quotecard-right-container{
+        width: 80vw;
+        padding: 2vh 20vw;
     }
     .quotecard-right-description{
         font-size: 1.5vh;

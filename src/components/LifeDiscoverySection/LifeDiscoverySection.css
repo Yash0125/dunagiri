@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   width: 90vw;
-  height: 100vh;
+  height: auto;
   padding: 10vh 3vw;
 }
 
@@ -21,139 +21,180 @@
   max-width: 68vw;
 }
 
-.lifediscoverysection-right-description{
-    font-weight: 200;
-    margin: 0;
-    padding: 0;
+.lifediscoverysection-right-description {
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
 }
 
-.lifediscoverysection-right-title{
-    font-weight: 900 ;
-    font-size: 5vh;
-    margin: 0;
-    padding: 0;
+.lifediscoverysection-right-title {
+  font-weight: 900;
+  font-size: 5vh;
+  margin: 0;
+  padding: 0;
 }
 
-.lifediscoverysection-right-card-container{
+.lifediscoverysection-right-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.lifediscoverysection-right-card {
+  min-width: 18vw;
+  max-width: 20vw;
+  margin-top: 2vh;
+  margin-top: 5vh;
+}
+
+.lifediscoverysection-right-card-image {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(80%) saturate(358%)
+    hue-rotate(93deg) brightness(70%) contrast(83%);
+  mix-blend-mode: multiply;
+  padding: 2vh;
+}
+
+.lifediscoverysection-right-card-title {
+  font-size: 2vh !important;
+  font-weight: 600;
+  margin: 2vh 0;
+  padding: 2vh;
+  height: 10vh;
+}
+
+.lifediscoverysection-right-card-description {
+  font-size: 1.4vh !important;
+  font-weight: 300;
+  font-style: italic;
+  margin: 5vh 0;
+  padding: 0 2vh;
+}
+@media (max-width: 600px) {
+  .lifediscoverysection-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+    padding: 0;
+  }
+
+  .lifediscoverysection-left-container {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lifediscoverysection-left-img {
+    width: 80vw;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-left: 10vw;
+  }
+
+  .lifediscoverysection-right-container {
+    width: 80vw;
+    height: auto;
+  }
+
+  .lifediscoverysection-right-description {
+    margin: 1vh 10vw;
+  }
+
+  .lifediscoverysection-right-title {
+    margin: 1vh 10vw;
+  }
+
+  .lifediscoverysection-right-card-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10vw;
+    padding-right: 10vw;
+  }
 
-.lifediscoverysection-right-card{
-    min-width: 18vw;
-    max-width: 20vw;
-    margin-top: 2vh;
-    margin-top: 5vh;
-}
+  .lifediscoverysection-right-card {
+    width: 100%;
+  }
+  .lifediscoverysection-right-card-image {
+    padding: 0;
+    padding-left: 2vh;
+    height: 20vh;
+    width: 20vh;
 
-.lifediscoverysection-right-card-image{
-    filter: brightness(0) saturate(100%) invert(93%) sepia(80%) saturate(358%) hue-rotate(93deg) brightness(70%) contrast(83%);
-    mix-blend-mode: multiply;
-    padding: 2vh ;
-   
-}
+  }
 
-
-.lifediscoverysection-right-card-title{
-    font-size: 2.7vh;
+  .lifediscoverysection-right-card-title {
+    font-size: 1.8vh !important;
     font-weight: 600;
-    margin:2vh 0;
-    padding: 2vh ;
-    height: 10vh;
-}
+    width: 60vw;
+    height: auto;
+    margin: 1vh 0;
+    padding: 1vh;
+    height: 2vh;
+    padding-top: 2vh;
+  }
 
-.lifediscoverysection-right-card-description{
-    font-size: 2vh;
-    font-weight: 300;
+  .lifediscoverysection-right-card-description {
+    width: 80vw;
+    font-size: 1.3vh !important;
     font-style: italic;
-    margin: 2vh 0;
-    padding:0 2vh;
-    
-}
-@media (max-width: 425px) {
-    .lifediscoverysection-container {
-        padding: 10vh 0;
-      }
-    
-    .lifediscoverysection-right-card-image{
-        padding: 0 ;
-        padding-left:2vh  ;
-        height: 5vh;
-        width: 5vh;
-    }
-    
-    
-    .lifediscoverysection-right-card-title{
-        font-size: 1.7vh !important;
-        font-weight: 600;
-    }
-    
-    .lifediscoverysection-right-card-description{
-        font-size: 1.3vh !important;
-        
-    }
-    .lifediscoverysection-right-card{
-        margin-top: 2vh;
-        margin-top: 5vh;
-        max-height: 35vh;
-    }
-    
+    margin: 0;
+    padding: 0 2vw;
+    height: 3vh;
+    white-space: normal;
+  }
 }
 
 @media (max-width: 768px) {
-    .lifediscoverysection-container {
-        padding: 10vh 0;
-      }
-      .lifediscoverysection-container {
-        padding: 10vh 0;
-      }
-    
-      .lifediscoverysection-right-card-image{
-        padding: 0 ;
-        padding-left:2vh  ;
-        height: 5vh;
-        width: 5vh;
-    }
-    
-    
-    .lifediscoverysection-right-card-title{
-        font-size: 1.7vh !important;
-        font-weight: 600;
-    }
-    
-    .lifediscoverysection-right-card-description{
-        font-size: 1.3vh !important;
-        
-    }
-    .lifediscoverysection-right-card{
-        margin-top: 2vh;
-        margin-top: 5vh;
-        max-height: 35vh;
-    }
+  .lifediscoverysection-container {
+    padding: 10vh 0;
+  }
+  .lifediscoverysection-container {
+    padding: 10vh 0;
+  }
+
+  .lifediscoverysection-right-card-image {
+    padding: 0;
+    padding-left: 2vh;
+    height: 5vh;
+    width: 5vh;
+  }
+
+  .lifediscoverysection-right-card-title {
+    font-size: 1.7vh !important;
+    font-weight: 600;
+  }
+
+  .lifediscoverysection-right-card-description {
+    font-size: 1.3vh !important;
+  }
+  .lifediscoverysection-right-card {
+    margin-top: 2vh;
+    margin-top: 5vh;
+    max-height: 35vh;
+  }
 }
 
 @media (max-width: 1024px) {
-    .lifediscoverysection-container {
-        padding: 10vh 0;
-      }
-    
-    .lifediscoverysection-right-card-image{
-        padding: 0 ;
-        padding-left:2vh  ;
-    }
-    
-    
-    .lifediscoverysection-right-card-title{
-        font-size: 2.2vh;
-        font-weight: 600;
-        margin:1vh 0;
-        padding: 0 ;
-        padding-left: 2vh;
-        height: 10vh;
-    }
-    
-    .lifediscoverysection-right-card-description{
-        font-size: 1.7vh;
-        
-    }
+  .lifediscoverysection-container {
+    padding: 10vh 0;
+  }
+
+  .lifediscoverysection-right-card-image {
+    padding: 0;
+    padding-left: 2vh;
+  }
+
+  .lifediscoverysection-right-card-title {
+    font-size: 2.2vh;
+    font-weight: 600;
+    margin: 1vh 0;
+    padding: 0;
+    padding-left: 2vh;
+    height: 10vh;
+  }
+
+  .lifediscoverysection-right-card-description {
+    font-size: 1.7vh;
+  }
 }
